@@ -1,0 +1,436 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+/*|||||||||||||||||||||||||||NAVIGATION||||||||||||||||||||||||||*/
+.navigation {
+    flex-grow:1;
+    background: #CC7412;
+}
+/*|||||||||||||||||||||||||||CONTAINER-2|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+.container-2{
+    flex-grow: 1;
+  }
+  /*|||||||||||||||||||||||||SECTION-6//////////////////////////////////////////////*/
+  .SECTION-6 {
+    height: 600px;
+    background: rgb(6, 6, 53);
+}
+.REALTOR-1 img {
+    width: 50%;
+    border-radius: 50%;
+    position: relative;
+    top:100px;
+}
+.REALTOR-2 img {
+    width: 50%;
+    border-radius: 50%;
+    position: relative;
+    top:150px;
+}
+.REALTOR-3 img {
+    width: 50%;
+    border-radius: 50%;
+    position: relative;
+    top:200px;
+}
+.sous-titres-SECTION-6 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.REALTOR-1,.REALTOR-2,.REALTOR-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.SousTitres-3-SECTION-6 {
+     position: relative;
+     top: 150px;
+     color: wheat;
+    position: relative;
+    top: 250px;
+}
+.SousTitres-2-SECTION-6 {
+    position: relative;
+    top: 100px;
+    color: wheat;
+    position: relative;
+    top: 200px;
+}
+.SousTitres-1-SECTION-6 {
+    position: relative;
+    top: 50px;
+    color: wheat;
+    position: relative;
+    top: 150px;
+}
+.TITRE-SECTION-6 {
+    color: #CC7412;
+    position: relative;
+    top: 50px;
+    text-align: center;
+}
+.container-1 {
+    flex-grow: 10;
+    display: block;
+    box-sizing: border-box;
+}
+/*|||||||||||||||||||||||||HEADER//////////////////////////////////////////////*/
+header {
+    position:relative;
+   background-image:linear-gradient(to right, rgba(8, 36, 64, 0.9), rgba(5, 35, 58, 0.9) ), url("../img-1/hero.jpeg");
+   background-size: cover;
+   background-position: top;
+   height:600px; 
+   bottom:30px;
+}
+header .logo-header {
+    width: 100px;
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%, -5%);
+}
+header .Titres-header {
+    position: relative;
+    left: 60%;
+    top: 50%;
+    transform: translate(-50%, -50%); 
+}
+header .Titres-header .Boutan {
+    text-decoration: none;
+    top: 20px;
+    font-size: 1rem;
+    display: inline-block;
+    padding: 1rem;
+    box-sizing: border-box;
+    position:relative;
+    background-color: #CC7412;
+    color:white;
+}
+header .Titres-header .soustitre-header {
+    color: #CC7412;
+}
+header .Titres-header .GrandTitre-header {
+    color: #F8F7F9;
+}
+header .lignes {
+    position: relative;
+    left: 60%;
+    top: 60%;
+    transform: translate(-50%, -50%); 
+    color: #979EA9;
+}
+hr {
+    width: 35%;
+}
+header .lignes .soustitre-1 {
+    text-align: center;
+    position: relative;
+    bottom: 12px;
+    right: 10%;
+    font-size: 1rem;
+}
+header .lignes .hr-1 {
+    position: relative;
+    bottom: 20px;
+    left: 45%;
+}
+.logos {
+    width: 100px;
+}
+header .souslogo-header{
+    position: relative;
+    left: 60%;
+    top: 65%;
+    transform: translate(-50%, -50%); 
+}
+header .souslogo-header ul {
+    display: flex;
+    list-style: none;
+}
+header .souslogo-header ul li {
+    margin: 0 5%;
+}
+
+/*|||||||||||||||||||||||||SECTION-1//////////////////////////////////////////////*/
+
+.SECTION-1 {
+    height: 600px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 60px;
+}
+.SECTION-1 .div-section-1 h3 {
+    position: relative;
+    margin: 20px 0;
+    left: 80%;
+    top: 20%;
+    transform: translate(-50%, -20%);
+    color: #CC7412;
+
+}
+.SECTION-1 .div-section-1 p {
+    position: relative;
+    margin: 30px 0;
+    left: 80%;
+    top: 22%;
+    transform: translate(-50%, -32%);
+    color: #979EA9;
+}
+
+/*|||||||||||||||||||||||||SECTION-2//////////////////////////////////////////////*/
+
+.SECTION-2 {
+    display: flex;
+    width: 120%;
+    height: 500px;
+    border: 1px #CC7412 solid;
+}
+.SECTION-2 .Images-Section-2 {
+    width: 60%;
+    background-image: url(../img-1/back.jpg);
+}
+.SECTION-2 .Images-Section-2 .IMG-1-SECTION-2 {
+    position: relative;
+    left: 65%;
+    top: 50%;
+    transform: translate(-50%, -50%); 
+}
+.SECTION-2 .Images-Section-2 .IMG-2-SECTION-2  {
+    position: relative;
+    left: 100%;
+    bottom: 110px;
+    transform: translate(-50%, -50%); 
+}
+.SECTION-2 .Titres-SECTION-2 {
+    position: relative;
+    left: 25%;
+    top: 60%;
+    transform: translate(-50%, -50%); 
+}
+.SECTION-2 .Titres-SECTION-2 h1,p {
+    margin: 30px 0;
+}
+.SECTION-2 .Titres-SECTION-2 .Boutan-SECTION-2 {
+    text-decoration: none;
+    top: 20px;
+    font-size: 1rem;
+    display: inline-block;
+    padding: 1rem;
+    box-sizing: border-box;
+    position:relative;
+    background-color: #CC7412;
+    color:white; 
+}
+
+/*|||||||||||||||||||||||||SECTION-3//////////////////////////////////////////////*/
+
+.SECTION-3 {
+    height: 1000px;
+    position: relative;
+    left: 60%;
+    top: 20%;
+    transform: translate(-50%, -50%);  
+}
+.SECTION-3 .CARD-SECTION-3 {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 100px;
+}
+.SECTION-3 .CARD-SECTION-3 .CARD {
+    background: #979EA9;
+    width: 270px;
+    height: 400px;
+}
+.SECTION-3 .CARD-SECTION-3 .CARD .CARD-IMG {
+    width: 270px;
+    height: 200px;
+}
+.SECTION-3 .CARD-SECTION-3 .CARD .TITRE-CARD {
+    bottom: 30px;
+    left: 50px;
+    font-size: 1rem;
+    display: inline-block;
+    padding: 1rem;
+    box-sizing: border-box;
+    position:relative;
+    background-color: #091540;
+    color:white;  
+}
+.SECTION-3 .CARD-SECTION-3 .CARD #TITRE-CARD {
+    bottom: 30px;
+    left: 30px;
+    font-size: 1rem;
+    display: inline-block;
+    padding: 1rem;
+    box-sizing: border-box;
+    position:relative;
+    background-color: #091540;
+    color:white;  
+}
+.SECTION-3 .CARD-SECTION-3 .CARD .SousTitres-CARD {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    left: 40px;
+    grid-gap: 40px;
+    color: #F2E5D7;
+}
+.SECTION-3 .CARD-SECTION-3 .CARD .Boutan-CARD {
+    text-decoration: none;
+    width: 270px;
+    top: 28px;
+    font-size: 1rem;
+    display: inline-block;
+    padding: 1rem;
+    box-sizing: border-box;
+    text-align: center;
+    position:relative;
+    background-color: #CC7412;
+    color:white;  
+}
+
+/*|||||||||||||||||||||||||SECTION-4//////////////////////////////////////////////*/
+
+.SECTION-4 {
+    box-sizing: border-box;
+    height:1000px;
+    position: relative;
+    left: 48%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+}
+.IMG-GRID {
+    width: 300px;
+    display: grid;
+    grid-template-areas: 
+    "A A B B B C D D"
+    "E E B B B G G H"
+    "E E F F N G G H"
+    "E E F F L L L H"
+    "I J J K L L L M"; 
+}
+.GAL-1 {
+    grid-area: A;
+    position: relative;
+    left: 50px;
+}
+.GAL-2 {
+    grid-area:B ;
+    position: relative;
+    left: 40px;
+}
+.GAL-3 {
+    grid-area:C ;
+    position: relative;
+    left: 60px;
+}
+.GAL-4 {
+    grid-area:D ;
+    position: relative;
+    left: 70px;
+}
+.GAL-5 {
+    grid-area:E ;
+    position: relative;
+    left: 50px;
+}
+.GAL-6 {
+    grid-area:F ;
+    position: relative;
+    left: 40px;
+}
+.GAL-7 {
+    grid-area:N ;
+    position: relative;
+    left: 50px;
+}
+.GAL-8 {
+    grid-area:G ;
+    position: relative;
+    left: 60px;
+}
+.GAL-9 {
+    grid-area:H ;
+    position: relative;
+    left: 70px;
+}
+.GAL-10 {
+    grid-area:I ;
+    position: relative;
+    left: 50px;
+}
+.GAL-11 {
+    grid-area:J ;
+    position: relative;
+    left: 70px;
+    
+}
+.GAL-12 {
+    grid-area:K ;
+    position: relative;
+    left: 40px;
+}
+.GAL-13 {
+    grid-area:L ;
+    position: relative;
+    left: 60px;
+}
+.GAL-14 {
+    grid-area:M ;
+    position: relative;
+    left: 70px;
+}
+.SECTION-5 {
+    height: 200px;
+    background: #091540;
+    bottom: 5%;
+}
+
+/*|||||||||||||||||||||||||SECTION-5//////////////////////////////////////////////*/
+
+.SECTION-5 .SousTitres-SECTION-5 {
+    position: relative;
+    left: 60%;
+    top: 20%;
+    transform: translate(-50%, -50%); 
+    display: flex;
+    flex-direction: row;
+}
+.SECTION-5 .SousTitres-SECTION-5 .SousTitres-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    text-align: center;
+    grid-column-gap: 100px;
+}
+.SECTION-5 .SousTitres-SECTION-5 .SousTitres-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center; 
+    position: relative;
+    left: 120px;
+    grid-column-gap: 60px;
+}
+@media only screen and (max-width: 800px) {
+    header {
+      height: 60px;
+      font-size: 1.2rem;
+    }
+    
+    main {
+      flex-wrap: wrap;
+      padding: 10px;
+    }
+  
+    section {
+      flex-basis: 100%;
+      margin-bottom: 20px;
+    }
+  }
